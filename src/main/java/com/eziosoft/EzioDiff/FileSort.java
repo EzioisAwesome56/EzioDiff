@@ -77,6 +77,6 @@ public class FileSort {
                 diff++;
             }
         }
-        System.out.println("processed " + list.length + " files, " + diff + " different files" + (move ? "moved" : "copied") + ".");
+        System.out.println("processed " + list.length + " files, " + diff + " different files " + (move ? "moved" : "copied") + ".");
     }
 }
