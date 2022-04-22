@@ -9,6 +9,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         if (args.length < 1){
             System.err.println("Error: you must select which mode to operate in!");
+            System.err.println("Valid modes: sort copyname");
             System.exit(-1);
         }
         String selection = args[0];
